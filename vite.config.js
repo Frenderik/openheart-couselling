@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss() // Keep this for Tailwind v4
   ],
-  base: './',
+  base: '/openheart-counseling/',  // 👈 Add this line
 })
