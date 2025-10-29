@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss() // Keep this for Tailwind v4
+    tailwindcss(), // Keep this for Tailwind v4
   ],
-  base: '/openheart-counselling/',  // 👈 Add this line
+  base: '/openheart-couselling/', // ✅ Correct spelling — matches your repo
 })
