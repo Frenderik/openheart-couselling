@@ -1,12 +1,8 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss() // Keep this for Tailwind v4
-  ],
-  base: '/openheart-counseling/',  // 👈 Add this line
+  plugins: [react()],
+  base: '/openheart-counseling/', // 👈 important
 })
