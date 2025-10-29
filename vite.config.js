@@ -4,9 +4,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(), // Keep this for Tailwind v4
-  ],
-  base: '/openheart-couselling/', // ✅ Correct spelling — matches your repo
+  plugins: [react(), tailwindcss()],
+  base: '/openheart-couselling/', // ✅ must match GitHub repo exactly
 })
